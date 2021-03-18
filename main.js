@@ -6,7 +6,7 @@ var btn = document.getElementById("btn");
 
 btn.addEventListener("click", function() {
     var ourRequest = new XMLHttpRequest();
-    ourRequest.open('GET','https://raw.githubusercontent.com/SamSwaroop/AjaxJsonQuiz/main/example.json');
+    ourRequest.open('GET','https://raw.githubusercontent.com/Mohankandregula-pixel/AJAX---Quiz/main/mohan.json');
     ourRequest.onload = function() {
         var ourData = JSON.parse(ourRequest.responseText)
         mohanHTML(ourData);
