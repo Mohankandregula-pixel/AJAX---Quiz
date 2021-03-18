@@ -6,7 +6,7 @@ var btn = document.getElementById("btn");
 
 btn.addEventListener("click", function() {
     var ourRequest = new XMLHttpRequest();
-    ourRequest.open('GET','https://learnwebcode.github.io/json-example/animals-' + pageCounter + '.json');
+    ourRequest.open('GET','https://raw.githubusercontent.com/SamSwaroop/AjaxJsonQuiz/main/example.json');
     ourRequest.onload = function() {
         var ourData = JSON.parse(ourRequest.responseText)
         mohanHTML(ourData);
@@ -22,7 +22,7 @@ function mohanHTML(data){
     var htmlString = "";
 
     for(i=0; i < data.length; i++) {
-        htmlString += "<p>" + data[i].name + " is a " + data[i].species + ".</p>";
+        htmlString += data[i];
     }
     animalContainer.insertAdjacentHTML('beforeend', htmlString);
 }
