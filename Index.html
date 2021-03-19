@@ -1,26 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz</title>
-</head>
-<style>
- .hide-me {
-     display:None;
- }
-</style>
-<body>
-    
-    <header>
-    <h1>JSON and AJAX</h1>
-    <button id = "btn">Fetch Info for 3 New Animals</button>
-    </header>
-
-    <div id="animal-info"></div>
-
-    <script src="main.js"></script>
-    
-</body>
-</html>
+<html>
+    <head>
+        <title>quiz</title>
+    </head>
+    <link rel="stylesheet" href="css/index.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <body>
+        <br/><br/><br/>
+        <div class="qPanel">
+            <div style="font-size:20pt;">Quiz</div>
+             <div class="ques" id="question"> 
+             </div><br><br>
+             <div><input type="radio" id="opt1" name="options">
+                <span id="optt1"></span>
+            </div><br>
+            <div><input type="radio" id="opt2" name="options">
+                <span id="optt2"></span>
+            </div><br>
+            <div><input type="radio" id="opt3" name="options">
+                <span id="optt3"></span>
+            </div><br>
+            <div><input type="radio" id="opt4" name="options">
+                <span id="optt4"></span>
+            </div><br>
+            <div class="lftCss">
+            <button  class="nxtBtn" onclick="checkAnswer()">next ></button>
+            </div><br>
+        </div>
+        <script src="js/questions.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+    </html>

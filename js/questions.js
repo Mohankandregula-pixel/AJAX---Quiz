@@ -1,6 +1,6 @@
-[
+var Questions=[
     {
-        "1" :"What is the full form of Ajax?",
+        "q" :"What is the full form of Ajax?",
         "a":"Asynchronous JavaScript And XML",
         "b":"Asynchronous jQuery And XML",
         "c":"Asynchronous JavaScript And XHTML",
@@ -9,7 +9,7 @@
     
     },
     {
-        "2" :"In AJAX you can ",
+        "q" :"In AJAX you can ",
         "a":"Update a web page without reloading the page",
         "b":"Receive data from a server - after the page has loaded",
         "c":"Send data to a server - in the background",
@@ -18,7 +18,7 @@
     
     },
     {
-        "3" :"What is the name of the object used for AJAX request?",
+        "q" :"What is the name of the object used for AJAX request?",
         "a":"HttpRequest",
         "b":"xmlRequest",
         "c":"XMLHTTPRequest",
@@ -27,7 +27,7 @@
     
     },
     {
-        "4" :"Ajax is a…",
+        "q" :"Ajax is a…",
         "a":"Programing Language",
         "b":"Technology",
         "c":"OOPs concepts",
@@ -36,7 +36,7 @@
     
     },
     {
-        "5" :"Implementing AJAX in our websites we can make our web pages ________ ?",
+        "q" :"Implementing AJAX in our websites we can make our web pages ________ ?",
         "a":"More Dynamic",
         "b":"More interactive and faster ",
         "c":"More Responsive",
@@ -45,7 +45,7 @@
     
     },
     {
-        "6" :"AJAX allows web page to dynamically",
+        "q" :"AJAX allows web page to dynamically",
         "a":"Change content",
         "b":"Reload at times",
         "c":"Control other pages",
@@ -54,7 +54,7 @@
     
     },
      {
-        "7" :"_____ Of the following technologies, which one provides the ability to dynamically interact with Web page layout?",
+        "q" :"_____ Of the following technologies, which one provides the ability to dynamically interact with Web page layout?",
         "a":"XML",
         "b":"HTML",
         "c":"JavaScript",
@@ -63,7 +63,7 @@
     
     },
     {
-        "8" :"What does the XMLHttpRequest object accomplish in Ajax?",
+        "q" :"What does the XMLHttpRequest object accomplish in Ajax?",
         "a":"It provides the ability to asynchronously exchange data between Web browser and a Web server",
         "b":"It's the programming language used to develop Ajax applications",
         "c":"It provides the ability to markup and style the display of web-page text",
@@ -72,7 +72,7 @@
     
     },
     {
-        "9" :" What two main structures compose JSON?",
+        "q" :" What two main structures compose JSON?",
         "a":"Key and value",
         "b":"Class and Object",
         "c":"Arrays and Objects",
@@ -80,5 +80,4 @@
         "answer":"Key and value"
     
     }
-
     ]
